@@ -19,7 +19,7 @@
    1. If your primary group is not "rc-workshops": Create a directory named with your GatorLink: `mkdir <GatorLink>`
       > If your account was created for the workshop, your primary group is rc-workshops and you can skip this step as the directory already exists.
    1. Change directories into this directory: `cd <GatorLink>`
-   1. Copy the Practicum AI CNN workshop notebooks and folders to your directory: `cp -r /data/training/practicum_student/cnn .`
+   1. Copy the Practicum AI CNN workshop notebooks and folders to your directory: `cp -r /data/training/practicum_student/python .`
       > The `-r` says to copy *recursively*--including folders)
 
       > **Note the period** at the end to tell Linux to copy the files "here"--a single dot is Linux shorthand for the current directory.
