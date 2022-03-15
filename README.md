@@ -18,11 +18,7 @@
    1. Change directories to `/blue/rc-workshops`: `cd /blue/rc-workshops`
    1. If your primary group is not "rc-workshops": Create a directory named with your GatorLink: `mkdir <GatorLink>`
       > If your account was created for the workshop, your primary group is rc-workshops and you can skip this step as the directory already exists.
-   1. Change directories into this directory: `cd <GatorLink>`
-   1. Copy the Practicum AI Transfer Learning workshop notebooks and folders to your directory: `cp -r /data/training/practicum_student/nlp .`
-      > The `-r` says to copy *recursively*--including folders)
-
-      > **Note the period** at the end to tell Linux to copy the files "here"--a single dot is Linux shorthand for the current directory.
+   
    1. Return to your home directory: `cd`
       > `cd` with no options goes to your home
    1. Create a symbolic link to the `/blue/rc-workshops` directory: `ln -s /blue/rc-workshops <LinkName>` For `<LinkName>`, we recommend using `blue_rc-workshops`.
